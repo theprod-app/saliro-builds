@@ -28,7 +28,7 @@
 
     <h2>Аккаунт</h2>
     <p>Вход через Google или номер телефона необязателен. Его делает Firebase Authentication в проекте saliro-e77ca. Если вы входите через Google, Firebase получает токен Google и может хранить адрес электронной почты у Google. Если вы входите по телефону, Firebase хранит этот номер. Мы сохраняем идентификатор пользователя.</p>
-    <p>Публичный профиль в Firestore (база salirodb, регион europe-west1) содержит имя, должность, название судна, IMO, номер телефона, если он есть, короткий публичный код и идентификатор телефона для судовой сети. Другой вошедший моряк может найти вас по имени, телефону или коду, чтобы написать в интернет-чат.</p>
+    <p>Публичный профиль в Firestore (база salirodb, регион europe-west1) содержит имя, должность, название судна, IMO, номер телефона, если он есть, короткий публичный код, статус (свободен, на вахте или отдыхаю) и идентификатор телефона для судовой сети. Другой вошедший моряк может найти вас по имени, телефону или коду, чтобы написать в интернет-чат. Тот же статус уходит телефонам экипажа в судовой сети.</p>
     <p>Удаление аккаунта есть в настройках, под кнопкой выхода. Оно удаляет пользователя Firebase, публичный профиль, курсы и заметки о портах этого пользователя, его жалобы и отправленные им сообщения интернет-чата. Сообщения собеседника в том же диалоге остаются у собеседника. Данные судовой сети на телефонах эта кнопка не стирает: их можно очистить отдельно в настройках.</p>
 
     <h2>Интернет-чат</h2>
@@ -42,7 +42,7 @@
     <p>По IMO приложение запрашивает у нашего сервера открытые данные судна: название, последний порт, пункт назначения, положение и ETA. Телефон не отправляет GPS. Разрешение на точное местоположение нужно только на Android 12 и старше, чтобы найти другие телефоны в судовой сети Wi-Fi, и не используется как трекинг.</p>
 
     <h2>Только на телефоне</h2>
-    <p>Лучшие результаты мини-игр, чек-листы, скачанные курсы и локальная диагностика остаются на телефоне. Мини-игры не передают ходы на сервер. Ход по судовой сети уходит только другому игроку на этом судне. Денег, ставок и рекламы в играх нет.</p>
+    <p>Лучшие результаты мини-игр, чек-листы, скачанные курсы, документы профиля (со сроками), страна и год «в море с», точки на карте пути и локальная диагностика остаются на телефоне. Карта рисуется по названиям портов, которые вы сами внесли, и не использует GPS. Мини-игры не передают ходы на сервер. Ход по судовой сети уходит только другому игроку на этом судне. Денег, ставок и рекламы в играх нет.</p>
 
     <h2>Чего мы не делаем</h2>
     <p>Мы не продаём данные, не показываем рекламу и не используем рекламный идентификатор. Отдельной аналитики нет. Приложение не для тех, кому нет 18 лет.</p>
@@ -58,7 +58,7 @@
 
     <h2>Account</h2>
     <p>Google or phone sign-in is optional. It uses Firebase Authentication in project saliro-e77ca. A Google sign-in gives Firebase a Google token, and Firebase may store the email address held by Google. A phone sign-in stores that phone number. We store the user id.</p>
-    <p>The public profile in Firestore (database salirodb, region europe-west1) holds the display name, position, ship name, IMO, phone number if there is one, a short public code, and the phone id used on the ship network. Another signed-in sailor can find you by name, phone, or code in order to open an internet chat.</p>
+    <p>The public profile in Firestore (database salirodb, region europe-west1) holds the display name, position, ship name, IMO, phone number if there is one, a short public code, the status (available, on watch, or resting), and the phone id used on the ship network. Another signed-in sailor can find you by name, phone, or code in order to open an internet chat. The same status is sent to crew phones on the ship network.</p>
     <p>Delete account is in Settings, under Sign out. It deletes the Firebase user, that user’s public profile, courses, and port notes, their reports, and the internet-chat messages they sent. The other person’s messages in the same thread stay. It does not wipe ship-network data on the phones. That has a separate clear-data action in Settings.</p>
 
     <h2>Internet chat</h2>
@@ -72,7 +72,7 @@
     <p>Using the IMO, the app asks our server for public vessel data: name, last port, destination, position, and ETA. The phone does not send GPS. The precise-location permission is only for Android 12 and earlier, so the app can find other phones on the ship Wi-Fi. It is not used for tracking.</p>
 
     <h2>On the phone only</h2>
-    <p>Mini-game scores, checklists, downloaded courses, and local diagnostics stay on the phone. Mini-games do not send moves to a server. A move on the ship network goes only to the other player on that ship. The games have no money, no betting, and no ads.</p>
+    <p>Mini-game scores, checklists, downloaded courses, profile documents (with expiry dates), the country and “seafarer since” year, journey map dots, and local diagnostics stay on the phone. The map is drawn from port names you entered. It does not use GPS. Mini-games do not send moves to a server. A move on the ship network goes only to the other player on that ship. The games have no money, no betting, and no ads.</p>
 
     <h2>What we do not do</h2>
     <p>We do not sell data, show ads, or use the advertising id. There is no separate analytics SDK. The app is not for anyone under 18.</p>
