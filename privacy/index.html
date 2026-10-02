@@ -24,7 +24,7 @@
   <section id="ru" lang="ru">
     <h1>Политика конфиденциальности Saliro</h1>
     <p>Saliro — приложение для моряков. Разработчик — theprod-app. Эта страница описывает, какие данные уходят с телефона и какие остаются на нём. Приложение не показывает рекламу, ничего не продаёт и не принимает ставки.</p>
-    <p>Дата: 30 сентября 2026 года.</p>
+    <p>Дата: 2 октября 2026 года.</p>
 
     <h2>Аккаунт</h2>
     <p>Вход через Google или номер телефона необязателен. Его делает Firebase Authentication в проекте saliro-e77ca. Если вы входите через Google, Firebase получает токен Google и может хранить адрес электронной почты у Google. Если вы входите по телефону, Firebase хранит этот номер. Мы сохраняем идентификатор пользователя.</p>
@@ -33,11 +33,12 @@
     <p>Удаление аккаунта есть в настройках, под кнопкой выхода. Оно удаляет пользователя Firebase, публичный профиль, личную облачную копию, курсы и заметки о портах этого пользователя, его жалобы и отправленные им сообщения интернет-чата. Сообщения собеседника в том же диалоге остаются у собеседника. Данные судовой сети на телефонах эта кнопка не стирает: их можно очистить отдельно в настройках.</p>
 
     <h2>Интернет-чат</h2>
-    <p>Текст сообщения, время и два идентификатора пользователей хранятся в Firestore. Чтобы доставить уведомление, мы храним токен Firebase Cloud Messaging. В уведомление попадает короткое начало текста.</p>
+    <p>Текст сообщения, время и два идентификатора пользователей хранятся в Firestore. Чтобы доставить уведомление, мы храним токен Firebase Cloud Messaging. В уведомление попадает короткое начало текста или подпись. Если подписи нет, для фото, видео, голосового или файла стоит короткая метка.</p>
+    <p>Фото, видео, голосовые и обычные файлы интернет-чата загружаются в Firebase Storage. Читать их могут только двое в этом чате, а пересланную копию — тот, кому её переслали. Фото и голосовое не больше 2 МБ, видео и обычный файл не больше 25 МБ. Файл выбирается системным окном, без доступа ко всему хранилищу телефона. Установить APK через чат нельзя: такие файлы отклоняются. К вложению можно добавить подпись. Копия на сервере удаляется через 30 дней. Своё сообщение можно удалить у обоих, и файл удаляется вместе с ним. Если файла уже нет и он не сохранён на телефоне, в переписке написано, что он удалён с сервера. Жалоба на файл чата содержит путь в хранилище, чтобы его можно было убрать из очереди модерации.</p>
 
     <h2>Курсы, заметки о портах и жалобы</h2>
     <p>Опубликованный курс или заметка о порте хранит текст, имя, идентификатор автора и время. Голос «полезно» или «ещё актуально» тоже хранится. Жалоба хранит вид записи, её идентификатор, идентификатор автора, идентификатор того, кто пожаловался, и время. Это видит разработчик, чтобы убрать публичный курс или заметку.</p>
-    <p>Объявления и события Vessel Space ходят только между телефонами в одной судовой сети с одним IMO. На сервер Saliro они не загружаются. Фото, файлы и голосовые сообщения тоже остаются между телефонами. Эта связь не шифруется.</p>
+    <p>Объявления и события Vessel Space ходят только между телефонами в одной судовой сети с одним IMO. На сервер Saliro они не загружаются. Фото, файлы и голосовые сообщения в судовой сети тоже остаются между телефонами. Эта связь не шифруется. Те же сообщения в интернет-чате — это копии в Firebase, описанные выше.</p>
 
     <h2>Рейс и судно</h2>
     <p>По IMO приложение запрашивает у нашего сервера открытые данные судна: название, последний порт, пункт назначения, положение и ETA. Телефон не отправляет GPS. Разрешение на точное местоположение нужно только на Android 12 и старше, чтобы найти другие телефоны в судовой сети Wi-Fi, и не используется как трекинг.</p>
@@ -55,7 +56,7 @@
   <section id="en" lang="en">
     <h1>Saliro privacy policy</h1>
     <p>Saliro is an app for seafarers, made by theprod-app. This page says what leaves the phone and what stays on it. The app shows no ads, sells nothing, and takes no bets.</p>
-    <p>Date: 30 September 2026.</p>
+    <p>Date: 2 October 2026.</p>
 
     <h2>Account</h2>
     <p>Google or phone sign-in is optional. It uses Firebase Authentication in project saliro-e77ca. A Google sign-in gives Firebase a Google token, and Firebase may store the email address held by Google. A phone sign-in stores that phone number. We store the user id.</p>
@@ -64,8 +65,8 @@
     <p>Delete account is in Settings, under Sign out. It deletes the Firebase user, that user’s public profile, the private cloud backup, courses, and port notes, their reports, and the internet-chat messages they sent. The other person’s messages in the same thread stay. It does not wipe ship-network data on the phones. That has a separate clear-data action in Settings.</p>
 
     <h2>Internet chat</h2>
-    <p>Message text, time, and the two user ids are stored in Firestore. A Firebase Cloud Messaging token is stored so a notification can be delivered. The notification contains a short start of the text, or a label when the message is a photo, video, or voice note.</p>
-    <p>Photos, videos, and voice notes in an internet chat are uploaded to Firebase Storage. Only the two people in that chat can read them, and a forwarded copy can be opened by the person it was forwarded to. A photo is kept under 2 MB, a voice note under 2 MB, and a video under 25 MB. The server copy is deleted after 30 days. You can delete your own message for both people, which also deletes the file. If the file is already gone and it is not saved on the phone, the chat says the file was removed from the server. A report of a chat file includes the storage path so it can be removed from the moderation queue.</p>
+    <p>Message text, time, and the two user ids are stored in Firestore. A Firebase Cloud Messaging token is stored so a notification can be delivered. The notification contains a short start of the text, or the caption. When there is no caption, a photo, video, voice note, or file uses a short label.</p>
+    <p>Photos, videos, voice notes, and ordinary files in an internet chat are uploaded to Firebase Storage and shared with the other person in that chat. A forwarded copy can be opened by the person it was forwarded to. A photo is kept under 2 MB, a voice note under 2 MB, and a video or other file under 25 MB. The file is chosen with the system document picker. The app does not ask for access to the phone’s storage. An Android package (an APK) is rejected. A caption can sit with the attachment. The server copy is deleted after 30 days. You can delete your own message for both people, which also deletes the file. If the file is already gone and it is not saved on the phone, the chat says the file was removed from the server. A report of a chat file includes the storage path so it can be removed from the moderation queue.</p>
 
     <h2>Courses, port notes, and reports</h2>
     <p>A published course or port note stores the text, the display name, the author id, and the time. A useful or still-current vote is stored too. A report stores the kind of item, its id, the author id, the reporter id, and the time. A report of a chat file also stores the storage path and the conversation id. The developer reads reports in order to remove a public course, a port note, or a reported chat file.</p>
