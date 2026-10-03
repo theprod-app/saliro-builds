@@ -1,8 +1,8 @@
 {
-  "version": "0.1.82",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.82/saliro.apk",
+  "version": "0.1.83",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.83/saliro.apk",
   "changelog": [
-    "В карточке порта из «Обзор» → «Порты» вместо сетки открывается карта с точкой на координатах порта. Если тайлов нет, остаётся прежняя сетка."
+    "Без сети карточка порта показывает уменьшенную карту мира с точкой порта. В сети по-прежнему полные тайлы."
   ],
   "ready": true
 }
