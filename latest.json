@@ -1,9 +1,9 @@
 {
-  "version": "0.1.109",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.109/saliro.apk",
+  "version": "0.1.110",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.110/saliro.apk",
   "changelog": [
-    "На карточке сети три статуса: Wi-Fi, интернет и HUB. Галочка, если есть, и тусклый крестик, если нет.",
-    "Нажатие на HUB открывает файлы Hub."
+    "Полоса часов снова ниже. Подписи через два часа: 00, 02 и дальше до 24.",
+    "Линия стоит ровно на часе, подпись по центру линии. Шаг 15 минут убран: остались 30 и 60."
   ],
   "ready": true
 }
