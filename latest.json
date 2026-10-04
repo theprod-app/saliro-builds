@@ -1,10 +1,9 @@
 {
-  "version": "0.1.108",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.108/saliro.apk",
+  "version": "0.1.109",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.109/saliro.apk",
   "changelog": [
-    "Hub в «Обзоре» сразу открывает файлы. Поиск идёт сам, адрес нужен только если Hub не найден.",
-    "Библиотека Hub: категории, недавно общие файлы и загрузка на телефон.",
-    "Отдельный раздел «Общие файлы» убран. Его место занял Hub."
+    "На карточке сети три статуса: Wi-Fi, интернет и HUB. Галочка, если есть, и тусклый крестик, если нет.",
+    "Нажатие на HUB открывает файлы Hub."
   ],
   "ready": true
 }
