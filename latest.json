@@ -1,9 +1,9 @@
 {
-  "version": "0.1.119",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.119/saliro.apk",
+  "version": "0.1.120",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.120/saliro.apk",
   "changelog": [
-    "На медали достижения свой значок: судно, глобус, якорь, игра и другие.",
-    "Уровень написан маленькой меткой. Ободок медали цвета ступени, от дерева до легенды."
+    "Разделы достижений: Мореход, Горизонт, Игры и Общение.",
+    "У каждого достижения морское имя. Условие остаётся подписью."
   ],
   "ready": true
 }
