@@ -1,9 +1,9 @@
 {
-  "version": "0.1.133",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.133/saliro.apk",
+  "version": "0.1.135",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.135/saliro.apk",
   "changelog": [
-    "Морские расстояния открываются на всю карту.",
-    "Время до каждого порта видно внизу экрана."
+    "Карточка портов ближе к верху экрана.",
+    "Свёрнутый маршрут оставляет больше карты."
   ],
   "ready": true
 }
