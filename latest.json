@@ -1,9 +1,9 @@
 {
-  "version": "0.1.130",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.130/saliro.apk",
+  "version": "0.1.131",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.131/saliro.apk",
   "changelog": [
-    "Маршрут считается в фоне и экран не замирает.",
-    "Если расчёт слишком долгий, показано почему."
+    "Порты маршрута можно перетаскивать, как в картах.",
+    "Новый порядок считается в фоне."
   ],
   "ready": true
 }
