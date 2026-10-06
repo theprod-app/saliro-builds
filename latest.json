@@ -1,9 +1,9 @@
 {
-  "version": "0.1.126",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.126/saliro.apk",
+  "version": "0.1.128",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.128/saliro.apk",
   "changelog": [
-    "Мили в обход Африки и Америки стали ближе к обычным цифрам.",
-    "Маршруты через Суэцкий и Панамский каналы остались прежними."
+    "Маршруты теперь строятся только по воде.",
+    "Линия на карте совпадает с милями."
   ],
   "ready": true
 }
