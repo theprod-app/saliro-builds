@@ -1,9 +1,9 @@
 {
-  "version": "0.1.128",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.128/saliro.apk",
+  "version": "0.1.129",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.129/saliro.apk",
   "changelog": [
-    "Маршруты теперь строятся только по воде.",
-    "Линия на карте совпадает с милями."
+    "Порт в заливе или реке снова выходит на море.",
+    "Ограничения можно сбросить, а если пути нет — сказано почему."
   ],
   "ready": true
 }
