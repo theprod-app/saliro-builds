@@ -1,9 +1,9 @@
 {
-  "version": "0.1.124",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.124/saliro.apk",
+  "version": "0.1.125",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.125/saliro.apk",
   "changelog": [
-    "На Обзоре появился раздел «Инструменты».",
-    "«Работа и отдых» теперь в этом разделе."
+    "В Инструментах появился расчёт морских расстояний.",
+    "Маршрут и варианты через каналы и проливы считаются на телефоне."
   ],
   "ready": true
 }
