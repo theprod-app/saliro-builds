@@ -1,9 +1,9 @@
 {
-  "version": "0.1.123",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.123/saliro.apk",
+  "version": "0.1.124",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.124/saliro.apk",
   "changelog": [
-    "Одна стоянка в порту больше не считается новым портом каждый день.",
-    "Звания вынесены в раздел «Карьера». В Мореходе остаются контракты и стаж."
+    "На Обзоре появился раздел «Инструменты».",
+    "«Работа и отдых» теперь в этом разделе."
   ],
   "ready": true
 }
