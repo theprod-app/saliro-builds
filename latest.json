@@ -1,9 +1,9 @@
 {
-  "version": "0.1.129",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.129/saliro.apk",
+  "version": "0.1.130",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.130/saliro.apk",
   "changelog": [
-    "Порт в заливе или реке снова выходит на море.",
-    "Ограничения можно сбросить, а если пути нет — сказано почему."
+    "Маршрут считается в фоне и экран не замирает.",
+    "Если расчёт слишком долгий, показано почему."
   ],
   "ready": true
 }
