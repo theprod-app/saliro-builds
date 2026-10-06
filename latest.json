@@ -1,9 +1,9 @@
 {
-  "version": "0.1.125",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.125/saliro.apk",
+  "version": "0.1.126",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.126/saliro.apk",
   "changelog": [
-    "В Инструментах появился расчёт морских расстояний.",
-    "Маршрут и варианты через каналы и проливы считаются на телефоне."
+    "Мили в обход Африки и Америки стали ближе к обычным цифрам.",
+    "Маршруты через Суэцкий и Панамский каналы остались прежними."
   ],
   "ready": true
 }
