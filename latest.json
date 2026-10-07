@@ -1,9 +1,11 @@
 {
-  "version": "0.1.135",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.135/saliro.apk",
+  "version": "0.1.136",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.136/saliro.apk",
   "changelog": [
-    "Карточка портов ближе к верху экрана.",
-    "Свёрнутый маршрут оставляет больше карты."
+    "На карте морских расстояний видны зоны MARPOL, ECA, SECA и PSSA.",
+    "Если маршрут входит в зону, это написано внизу экрана.",
+    "Первый запуск начинается со знакомства с приложением.",
+    "Пол остаётся в профиле, порты лежат в инструментах, без хаба его экран не открывается."
   ],
   "ready": true
 }
