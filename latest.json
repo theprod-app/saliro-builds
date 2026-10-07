@@ -1,8 +1,8 @@
 {
-  "version": "0.1.139",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.139/saliro.apk",
+  "version": "0.1.140",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.140/saliro.apk",
   "changelog": [
-    "С главного экрана можно отправить идею или баг. Переписка лежит в чатах."
+    "Кнопка идеи и бага всегда внизу главного экрана."
   ],
   "ready": true
 }
