@@ -1,9 +1,9 @@
 {
-  "version": "0.1.143",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.143/saliro.apk",
+  "version": "0.1.144",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.144/saliro.apk",
   "changelog": [
-    "Кнопка идеи и бага в конце прокрутки главного экрана."
+    "Идея и баг снова отправляются."
   ],
   "ready": true,
-  "sha256": "85656300e4b262fd52239f629498f42c025874615042961cc5e8c3785a20fafc"
+  "sha256": "0af75707dd40c5fe41ac229575a8639b20d8ed92b5b8aabaccb34c0c73d5ba8f"
 }
