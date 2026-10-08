@@ -1,9 +1,9 @@
 {
-  "version": "0.1.142",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.142/saliro.apk",
+  "version": "0.1.143",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.143/saliro.apk",
   "changelog": [
-    "На первом экране вход через Google восстанавливает профиль из облака."
+    "Кнопка идеи и бага в конце прокрутки главного экрана."
   ],
   "ready": true,
-  "sha256": "e36e2763ade3c4bcdfb176fc43d8852c379d5f65be6a3297ea8b58034037cc49"
+  "sha256": "85656300e4b262fd52239f629498f42c025874615042961cc5e8c3785a20fafc"
 }
