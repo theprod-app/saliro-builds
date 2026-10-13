@@ -1,10 +1,11 @@
 {
-  "version": "0.1.161",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.161/saliro.apk",
+  "version": "0.1.162",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.162/saliro.apk",
   "changelog": [
-    "Общие заметки порта видны и без входа через Google.",
-    "Если список не загрузился, показывается ошибка, а не пустой порт."
+    "При вводе названия судна появляются варианты из базы и AIS, в том числе без входа через Google.",
+    "Если имя совпало полностью, оно предлагается сразу.",
+    "После выбора настоящее имя заменяет набранный текст в контракте, на главной, в профиле и в истории."
   ],
   "ready": true,
-  "sha256": "4b717bc5059ada61531228b4da0f8b7cf09503c6ad6e2d9811531780b55eadbd"
+  "sha256": "1c26d272e00493ce7924ec9f46c83e3a717b4b5d583e835fc47a140e8f7d0d89"
 }
