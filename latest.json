@@ -1,11 +1,10 @@
 {
-  "version": "0.1.160",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.160/saliro.apk",
+  "version": "0.1.161",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.161/saliro.apk",
   "changelog": [
-    "В форме заметки сразу видно, общая она или только для этого аккаунта.",
-    "Личная заметка не видна другому входу, даже на том же телефоне.",
-    "Порт с карточки рейса открывается сразу, и общие заметки подгружаются."
+    "Общие заметки порта видны и без входа через Google.",
+    "Если список не загрузился, показывается ошибка, а не пустой порт."
   ],
   "ready": true,
-  "sha256": "91a3ab286d40ddd0b59d35b608b490f7d0005932cd747426109fc40762d751f0"
+  "sha256": "4b717bc5059ada61531228b4da0f8b7cf09503c6ad6e2d9811531780b55eadbd"
 }
