@@ -1,10 +1,10 @@
 {
-  "version": "0.1.169",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.169/saliro.apk",
+  "version": "0.1.170",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.170/saliro.apk",
   "changelog": [
-    "На баннере обновления виден размер файла, например 18,4 МБ."
+    "В справочнике AIS судно находится по любому слову в названии: FLEVO находит RIX FLEVO."
   ],
   "ready": true,
-  "size": 42486587,
-  "sha256": "890e92c0a52fc4703ca54195da637a2c23601872ac5985cd3ab0a0d9385267bc"
+  "size": 42486643,
+  "sha256": "736ae6146c0a9bedb1516e39a84d568355f806313f29151596869e8c15fae0d1"
 }
