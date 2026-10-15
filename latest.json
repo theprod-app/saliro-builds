@@ -1,11 +1,10 @@
 {
-  "version": "0.1.166",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.166/saliro.apk",
+  "version": "0.1.168",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.168/saliro.apk",
   "changelog": [
-    "Раздел «Заметки» в админке больше не закрывает приложение.",
-    "В отчёте об ошибке видны версия, экран и последние шаги, без текста сообщений и без места.",
-    "Скриншот к отчёту по-прежнему необязателен."
+    "В админке виден справочник AIS: сколько судов, сколько новых и работает ли приёмник.",
+    "Судно можно найти по номеру IMO или по названию."
   ],
   "ready": true,
-  "sha256": "667ebde036f51ab5e4db7b67696597bd49ebdf2a1d92f21cfc29847d0503f2e0"
+  "sha256": "bbbebadf545b456dfa637d93e2c02cd402b04e1a5e62c244f081296b43794526"
 }
