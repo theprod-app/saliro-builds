@@ -1,10 +1,11 @@
 {
-  "version": "0.1.170",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.170/saliro.apk",
+  "version": "0.1.172",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.172/saliro.apk",
   "changelog": [
-    "В справочнике AIS судно находится по любому слову в названии: FLEVO находит RIX FLEVO."
+    "Раздел «Жалобы на людей» больше не закрывает приложение, когда жалоб нет.",
+    "Сбой больше не выкидывает из аккаунта Google, и вход снова работает."
   ],
   "ready": true,
-  "size": 42486643,
-  "sha256": "736ae6146c0a9bedb1516e39a84d568355f806313f29151596869e8c15fae0d1"
+  "size": 42470315,
+  "sha256": "4b51f293dbe43fe245854ed92ef11d638ceec94f4d861e06afa749b9c5befaa4"
 }
