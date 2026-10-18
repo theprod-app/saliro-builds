@@ -1,11 +1,13 @@
 {
-  "version": "0.1.183",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.183/saliro.apk",
+  "version": "0.1.184",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.184/saliro.apk",
   "changelog": [
-    "Кнопки внизу экрана больше не прячутся под системной панелью навигации (жесты или три кнопки): «Начать» и «Далее» на приветствии, «Сохранить» при первом заполнении профиля, «Понятно» в «Что нового», кадрирование фото, просмотр фото в чатах и на Hub, поиск по документам и экран после сбоя.",
-    "В чатах больше нет лишнего отступа над клавиатурой."
+    "«Мои документы» теперь сохраняются в вашем аккаунте вместе с файлами (до 15 МБ на файл), если вы вошли через Google. После переустановки или на новом телефоне документы и файлы вернутся сами после входа тем же аккаунтом.",
+    "Важно перед переходом на версию из Google Play: откройте эту версию один раз с интернетом и дождитесь в «Мои документы» надписи «Все документы сохранены в вашем аккаунте». Только после этого удаляйте тестовую версию.",
+    "Файл больше 15 МБ к документу не прикрепить: Saliro покажет понятную ошибку. Удаление документа или аккаунта удаляет и его облачную копию.",
+    "EN: My documents are now backed up to your Google account together with their files (up to 15 MB each) and restore automatically after reinstalling. Before uninstalling this test build for the Play version, open the app once with internet and wait until My documents says “All documents are backed up to your account.”"
   ],
   "ready": true,
-  "size": 43015812,
-  "sha256": "87e064bfa8d73914308c584e2e83643eb253bf69f464696c4fc0370b0831465d"
+  "size": 43037872,
+  "sha256": "4fdc1a8a6b86ba980cb08b56f7174da5e0cc61e6cd9b7213721c5682ae288d16"
 }
