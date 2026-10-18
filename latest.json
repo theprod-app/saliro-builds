@@ -1,11 +1,11 @@
 {
-  "version": "0.1.187",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.187/saliro.apk",
+  "version": "0.1.188",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.188/saliro.apk",
   "changelog": [
-    "Сборка для закрытого тестирования в Google Play. Изменений по сравнению с 0.1.186 нет: экран выбора «Создать новый профиль» / «Войти в существующий аккаунт», «Мои документы» в аккаунте и объединение профиля после работы без интернета — всё на месте.",
-    "EN: Build for the Google Play closed test. No changes since 0.1.186: the first-run choice screen, My documents backup and the merge of an offline profile into your Google account are all included."
+    "Кнопка администратора в «Настройках» больше не пропадает до перезапуска приложения: если права выданы или обновились, пока Saliro открыт, кнопка появится сама в течение нескольких минут, а также сразу после входа через Google.",
+    "EN: The admin button in Settings no longer disappears until the app is restarted: if admin access is granted or refreshed while Saliro is open, the button appears on its own within a few minutes, and right after signing in with Google."
   ],
   "ready": true,
-  "size": 43070324,
-  "sha256": "d4eeb918d4254cdae16b0f3e478b470d3c4901ecf4ef1fe13662a134903e545b"
+  "size": 43070556,
+  "sha256": "31cce28d637da2ccd552bd6f194c7c622534ae647d38f0a03d1b375bb1b2ee6c"
 }
