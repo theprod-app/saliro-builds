@@ -1,15 +1,11 @@
 {
-  "version": "0.1.186",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.186/saliro.apk",
+  "version": "0.1.187",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.187/saliro.apk",
   "changelog": [
-    "Если вы начали без интернета и Google, а потом вошли в аккаунт, профиль с телефона больше не теряется: Saliro объединяет его с аккаунтом — поля профиля, контракты, рейсы, контакты, «Мои документы» с файлами и журнал работы и отдыха.",
-    "Если одно и то же поле, запись или документ есть и на телефоне, и в аккаунте, остаётся то, что изменили позже. Пустое поле не стирает заполненное, ничего не удаляется, один и тот же документ не появляется дважды.",
-    "После объединения остаётся один профиль — ваш аккаунт Google, и всё сразу сохраняется в облачную копию. Один раз Saliro покажет короткую сводку: что пришло с телефона и что из аккаунта.",
-    "Если вход отменён или не удался, профиль на телефоне остаётся как был и работает без интернета.",
-    "Журнал часов работы и отдыха теперь тоже сохраняется в вашем аккаунте, если вы вошли через Google, и вернётся после переустановки.",
-    "EN: Signing in with Google after using Saliro offline no longer loses the phone profile: profile fields, contracts, voyages, contacts, My documents with files and the work and rest journal are merged into the account. For anything present on both sides the most recently changed copy is kept, a blank never wipes a value, nothing is deleted and the same document is never doubled. One Google profile remains, it is backed up right away, and a short summary is shown once. A cancelled or failed sign-in leaves the phone profile untouched. The work and rest journal is now backed up to your account too."
+    "Сборка для закрытого тестирования в Google Play. Изменений по сравнению с 0.1.186 нет: экран выбора «Создать новый профиль» / «Войти в существующий аккаунт», «Мои документы» в аккаунте и объединение профиля после работы без интернета — всё на месте.",
+    "EN: Build for the Google Play closed test. No changes since 0.1.186: the first-run choice screen, My documents backup and the merge of an offline profile into your Google account are all included."
   ],
   "ready": true,
-  "size": 43070132,
-  "sha256": "b41cee56518c7f4bf6309258a81685b7ec1a12e788e710147a8ca1c66a9ed546"
+  "size": 43070324,
+  "sha256": "d4eeb918d4254cdae16b0f3e478b470d3c4901ecf4ef1fe13662a134903e545b"
 }
