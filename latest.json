@@ -1,13 +1,14 @@
 {
-  "version": "0.1.184",
-  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.184/saliro.apk",
+  "version": "0.1.185",
+  "url": "https://github.com/theprod-app/saliro-builds/releases/download/v0.1.185/saliro.apk",
   "changelog": [
-    "«Мои документы» теперь сохраняются в вашем аккаунте вместе с файлами (до 15 МБ на файл), если вы вошли через Google. После переустановки или на новом телефоне документы и файлы вернутся сами после входа тем же аккаунтом.",
-    "Важно перед переходом на версию из Google Play: откройте эту версию один раз с интернетом и дождитесь в «Мои документы» надписи «Все документы сохранены в вашем аккаунте». Только после этого удаляйте тестовую версию.",
-    "Файл больше 15 МБ к документу не прикрепить: Saliro покажет понятную ошибку. Удаление документа или аккаунта удаляет и его облачную копию.",
-    "EN: My documents are now backed up to your Google account together with their files (up to 15 MB each) and restore automatically after reinstalling. Before uninstalling this test build for the Play version, open the app once with internet and wait until My documents says “All documents are backed up to your account.”"
+    "После приветствия Saliro теперь спрашивает, с чего начать: «Создать новый профиль» или «Войти в существующий аккаунт».",
+    "«Создать новый профиль» работает без интернета и без Google: заполните профиль на телефоне и сразу общайтесь с экипажем по судовой Wi-Fi. Войти в аккаунт можно позже: «Профиль» → «Настройки» → «Аккаунт».",
+    "«Войти в существующий аккаунт» — вход через Google, как раньше: профиль, контакты, контракты и документы вернутся из вашей копии.",
+    "Ничего не стирается: то, что уже сохранено на телефоне, остаётся, а сохранённый вход в Google не сбрасывается. Если вы уже вошли или заполнили профиль, этот экран больше не появится.",
+    "EN: After the welcome screens Saliro now asks how to start: «Create new profile» works offline without Google (chat with the crew over the ship's Wi-Fi right away, sign in later in Profile → Settings → Account), «Sign in to existing account» signs in with Google and restores your profile as before. Nothing on the phone is wiped, a saved Google sign-in is kept, and people who are already signed in or have a profile never see this screen again."
   ],
   "ready": true,
-  "size": 43037872,
-  "sha256": "4fdc1a8a6b86ba980cb08b56f7174da5e0cc61e6cd9b7213721c5682ae288d16"
+  "size": 43045776,
+  "sha256": "99d3cd383df1880f91591241f6adeabffe6098b8b3170e2b35b1616bf117dc46"
 }
