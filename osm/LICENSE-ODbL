@@ -1,0 +1,24 @@
+OpenStreetMap-derived databases in this folder
+
+sea_tss.bin and sea_zones.bin are databases derived from OpenStreetMap
+data. They are offered under the Open Database License (ODbL) 1.0:
+
+https://opendatacommons.org/licenses/odbl/1.0/
+
+© OpenStreetMap contributors
+https://www.openstreetmap.org/copyright
+
+You are free to copy, distribute, transmit and adapt these databases
+under the ODbL, including the share-alike duty for any adapted database
+and the attribution duty for a produced work.
+
+sea_tss.bin also contains schemes added from printed public regulations
+(33 CFR 166 and 167, NGA Pub. 157, COLREG.2/Circ.44) where the
+OpenStreetMap extract had no geometry. Those supplements are not
+OpenStreetMap. They are named in SOURCE.md and in scripts/supplements.py.
+
+sea_zones.bin also contains IMO and domestic limit polygons closed on
+the Natural Earth coast (public domain). The OpenStreetMap part of that
+file is the china-yangtze record. See SOURCE.md.
+
+UKHO, Admiralty, and MARNET data are not in these files.
